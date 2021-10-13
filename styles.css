@@ -40,20 +40,22 @@ hr {
 
 .link-intial {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     color: white;
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    margin-left:40%;
 }
 
 .link-secondary {
     color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     border: 1px solid var(--primary-color);
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    margin-left:40%;
 }
 
 
@@ -124,14 +126,16 @@ hr {
 .section {
     padding: 2rem;
 }
-
 .section h1 {
     text-align: center;
+    font-weight: 700;
 
 }
 
 .primary {
     background-color: var(--off-white);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
 }
 
 /** footers **/
