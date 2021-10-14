@@ -162,12 +162,16 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-div .container>a{
-    display:inline-block;
-}
+
 /** projects **/
 .showcase-list {
     padding: 2rem;
+}
+.project-link{
+    display:flex;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-content: space-between;
 }
 
 /** blogs **/
