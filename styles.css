@@ -162,7 +162,9 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
-
+div .container>a{
+    display:inline-block;
+}
 /** projects **/
 .showcase-list {
     padding: 2rem;
