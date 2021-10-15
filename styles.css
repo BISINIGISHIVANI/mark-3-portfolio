@@ -123,6 +123,11 @@ hr {
     color: var(--primary-color);
 }
 
+.project-link{
+    margin-left:70%;
+    margin-top: -70px;
+}
+
 /** sections **/
 
 .section {
@@ -133,7 +138,30 @@ hr {
     font-weight: 700;
 
 }
-
+@media (max-width:700px){
+    .link-intial {
+        background-color: var(--primary-color);
+        border-radius: 2rem;
+        color: white;
+        display: block;
+        max-width: 140px;
+        margin: 1rem 1rem 1rem 0rem;
+        margin-left:40%;
+    }
+    
+    .link-secondary {
+        color: var(--primary-color);
+        border-radius: 2rem;
+        border: 1px solid var(--primary-color);
+        display: block;
+        max-width: 140px;
+        margin: 1rem 1rem 1rem 0rem;
+        margin-left:40%;
+    }
+}
+div>small,article>small{
+    margin-left: 40%;
+}
 .primary {
     background-color: var(--off-white);
     border-radius: 1rem;
