@@ -206,3 +206,12 @@ div>small,article>small{
 .showcase-blog {
     padding-bottom: 6rem;
 }
+/* dummy */
+.student-img{
+    width:90px;
+    height: 100px;
+}
+.title-img{
+    width:400px;
+    height:300px;
+}
