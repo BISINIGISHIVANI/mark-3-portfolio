@@ -168,9 +168,9 @@ div>small,article>small{
     margin-bottom: 2rem;
 }
 .para{
-    width:60rem;
-
-    margin-left: -25%;
+    
+    text-align: center;
+   
 }
 
 /** footers **/
