@@ -167,6 +167,11 @@ div>small,article>small{
     border-radius: 1rem;
     margin-bottom: 2rem;
 }
+.para{
+    width:60rem;
+
+    margin-left: -25%;
+}
 
 /** footers **/
 
