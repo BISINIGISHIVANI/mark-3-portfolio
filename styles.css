@@ -167,6 +167,9 @@ hr {
     .align-left{
         justify-content: flex-end;
     }
+    body{
+        width: 100%;
+    }
 }
 div>small,article>small{
     margin-left: 40%;
