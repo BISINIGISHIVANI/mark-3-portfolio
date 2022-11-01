@@ -167,6 +167,9 @@ hr {
     .align-left{
         justify-content: flex-end;
     }
+    .nav-buttons .mg-left{
+        margin-left: 40%;
+    }
     body{
         width: 100%;
     }
