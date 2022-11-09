@@ -238,3 +238,52 @@ div>small,article>small{
     width:400px;
     height:300px;
 }
+/* project showcase */
+
+  .projects-list {
+    padding: 4rem 0;
+  }
+  
+  .project-align-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 1170px;
+  }
+  
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .project-image {
+    display: block;
+    width: 100%;
+    min-height: 12rem;
+  }
+  
+  .button-source{
+    background: blue;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      letter-spacing: var(--mainSpacing);
+      padding: 0.5rem 0.75rem;
+      position: absolute;
+      right: 0;
+      text-transform: uppercase;
+  }
+  .button-live-preview{
+    background: yellow;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      letter-spacing: var(--mainSpacing);
+      padding: 0.5rem 0.75rem;
+      position: absolute;
+      right: 0;
+      text-transform: uppercase;
+  }
+  
